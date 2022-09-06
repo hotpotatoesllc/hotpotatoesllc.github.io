@@ -1,12 +1,10 @@
 ---
-author: Dirk Olbrich
+author: Irfan Shah
 title: About
-date: 2019-05-13
+date: 2022-05-13
 description: A short description about me.
 keywords: [about, creator]
 type: about
 ---
 
 Hugo Starter Theme for Tailwindcss.
-
-Made by [me](https://github.com/dirkolbrich/).

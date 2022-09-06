@@ -1,19 +1,14 @@
 theme = "typography-theme"
 languageCode = "en-us"
-baseurl = "http://example.com/"
-title = "Hugo Tailwindcss Starter"
+baseurl = "https://hotpotatoes.vc/"
+title = "Hot Potatoes"
 
-author = "Dirk Olbrich"
-copyright = "Copyright © 2019, Dirk Olbrich, all rights reserved."
+author = "Irfan Shah"
+copyright = "Copyright © 2019, Hot Potatoes LLP, all rights reserved."
 
 [params]
-    name = "Hugo Tailwindcss Starter"
-    description = "A simple bootstraped theme for Hugo, build with Tailwindcss."
-
-    github_user = "dirkolbrich"
-    github_repo = "https://github.com/dirkolbrich/hugo-tailwindcss-starter-theme"
-    github_banner = true
-
+    name = "Hot Potatoes"
+    description = "Hot Potatoes website buit with Hugo and Tailwindcss."
     favicon = "favicon.ico"
 
 [build]
