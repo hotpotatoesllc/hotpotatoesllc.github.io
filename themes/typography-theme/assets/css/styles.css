@@ -13,3 +13,9 @@
         @apply text-blue-700;
     }
 }
+
+@layer base {
+    html {
+      font-family: adobe-garamond-pro, system-ui, sans-serif;
+    }
+}
