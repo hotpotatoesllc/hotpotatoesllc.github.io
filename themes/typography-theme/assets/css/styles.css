@@ -18,4 +18,10 @@
     html {
       font-family: adobe-garamond-pro, system-ui, sans-serif;
     }
+    .prose {
+        max-width: 90ch !important;
+    }
+    .prose-xl {
+        font-size: 22px !important;
+    }
 }
