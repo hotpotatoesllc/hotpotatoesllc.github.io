@@ -18,6 +18,22 @@
     html {
       font-family: adobe-garamond-pro, system-ui, sans-serif;
     }
+    body {
+        background-color: #f9eddd;
+    }
+    body .main-banner h1{
+        font-family: "Space Grotesk", system-ui, sans-serif !important;
+        font-size: 3em;
+        padding: 0.2em;
+    }
+    body .main-banner h2{
+        font-family: "Space Grotesk", system-ui, sans-serif !important;
+        font-size: 1.3em;
+        padding: 0.2em;
+    }
+    body .main-banner p {
+        font-family: Monaco !important;
+    }
     .prose h1 {
         font-family: oxygen, system-ui, sans-serif !important;
         font-size: 2.1em !important;
@@ -59,6 +75,9 @@
         }
         header {
             margin-bottom: 0.4em;
+        }
+        body .main-banner{
+            font-size: 75%;
         }
     }
 }
