@@ -454,8 +454,18 @@ select {
 html {
       font-family: adobe-garamond-pro, system-ui, sans-serif;
     }
+.prose h1 {
+        font-family: oxygen, system-ui, sans-serif !important;
+        font-size: 2.1em !important;
+    }
 .prose {
         max-width: 90ch !important;
+    }
+.hot-potatoes {
+        font-family: Lobster;
+        font-size: 3em;
+        margin-top: 5px;
+        color: indianred;
     }
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -1112,7 +1122,7 @@ html {
 }
 .welcome-headline {
   --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 .pointer-events-none {
   pointer-events: none;
@@ -1152,6 +1162,10 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1172,6 +1186,12 @@ html {
 }
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.ml-auto {
+  margin-left: auto;
 }
 .block {
   display: block;
@@ -1659,7 +1679,7 @@ html {
 }
 @media (min-width: 1280px) {
     .xl\:prose-xl {
-        font-size: 22px !important;
+        font-size: 1.32em !important;
         font-size: 1.25rem;
         line-height: 1.8;
     }

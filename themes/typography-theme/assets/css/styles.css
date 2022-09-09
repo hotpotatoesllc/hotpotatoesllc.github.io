@@ -10,7 +10,7 @@
 /* see https://tailwindcss.com/docs/functions-and-directives#layer */
 @layer components {
     .welcome-headline {
-        @apply text-blue-700;
+        @apply text-slate-700;
     }
 }
 
@@ -18,10 +18,20 @@
     html {
       font-family: adobe-garamond-pro, system-ui, sans-serif;
     }
+    .prose h1 {
+        font-family: oxygen, system-ui, sans-serif !important;
+        font-size: 2.1em !important;
+    }
     .prose {
         max-width: 90ch !important;
     }
     .prose-xl {
-        font-size: 22px !important;
+        font-size: 1.32em !important;
+    }
+    .hot-potatoes {
+        font-family: Lobster;
+        font-size: 3em;
+        margin-top: 5px;
+        color: indianred;
     }
 }
